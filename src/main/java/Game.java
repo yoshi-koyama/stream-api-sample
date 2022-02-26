@@ -20,4 +20,13 @@ public class Game {
     public int getPrice() {
         return price;
     }
+
+    @Override
+    public String toString() {
+        return "Game{" +
+                "name='" + name + '\'' +
+                ", genre='" + genre + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
